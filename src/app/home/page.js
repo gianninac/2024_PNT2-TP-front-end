@@ -35,7 +35,7 @@ export default function Home() {
 
       {/* Botón Cerrar Sesión alineado a la derecha */}
       <div className="logout-container">
-        <button onClick={() => router.push("/")} className="logout-button">
+        <button onClick={() => router.push("/")} className="button">
           Cerrar Sesión
         </button>
       </div>
