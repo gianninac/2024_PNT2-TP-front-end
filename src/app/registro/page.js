@@ -21,7 +21,7 @@ export default function Registro() {
     // Lógica para verificar que las contraseñas coincidan y registrar al usuario
     if (password === confirmPassword) {
       // Aquí iría la lógica de registro
-      router.push("/signin"); // Redirigir a la página de inicio de sesión después del registro
+      router.push("/home"); // Redirigir a la página de inicio de sesión después del registro
     } else {
       alert("Las contraseñas no coinciden");
     }

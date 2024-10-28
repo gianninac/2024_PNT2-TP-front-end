@@ -33,8 +33,8 @@ export default function Resumen() {
       <div className="total-gasto">
         <h2>Gasto Total Mes Actual: $0</h2>
       </div>
-      <button onClick={() => router.push("/signin")} className="button">
-        Inicio
+      <button onClick={() => router.push("/home")} className="button">
+        Página Inicio
       </button>
     </div>
   );
@@ -96,7 +96,7 @@ export default function Resumen() {
 //       <div className="total-gasto">
 //         <h2>Gasto Total Mes Actual: ${calcularGastoTotal()}</h2>
 //       </div>
-//       <button onClick={() => router.push("/signin")} className="button">
+//       <button onClick={() => router.push("/uploadBill")} className="button">
 //         Inicio
 //       </button>
 //     </div>

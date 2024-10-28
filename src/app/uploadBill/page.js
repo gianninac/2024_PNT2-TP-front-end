@@ -26,8 +26,8 @@ export default function Signin() {
     }
   };
 
-  const handleSummary = () => {
-    router.push("/resumen"); // Redirigir a la página de resumen
+  const handleHome = () => {
+    router.push("/home"); // Redirigir a la página de resumen
   };
 
   const handleLogout = () => {
@@ -75,8 +75,8 @@ export default function Signin() {
       </div>
 
       <div className="button-container">
-        <button onClick={handleSummary} className="button">
-          Resumen
+        <button onClick={handleHome} className="button">
+          Página Inicio
         </button>
         <button onClick={handleLogout} className="button">
           Cerrar Sesión

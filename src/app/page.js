@@ -16,7 +16,7 @@ export default function Home() {
     // Aquí puedes manejar la lógica de inicio de sesión
     console.log("Usuario", username);
     console.log("Contraseña", password);
-    router.push("/signin");
+    router.push("/home");
   };
 
   const handleRegister = () => {
@@ -69,7 +69,7 @@ export default function Home() {
 //   const router = useRouter(); // Mantenemos el hook pero desde 'next/navigation'
 
 //   const handleSignIn = () => {
-//     router.push("/signin");
+//     router.push("/uploadBill");
 //   };
 
 //   const handleRegister = () => {

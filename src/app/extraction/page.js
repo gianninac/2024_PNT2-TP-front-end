@@ -38,7 +38,7 @@ export default function Extraction() {
 
   // Manejar la cancelación
   const handleCancel = () => {
-    router.push("/signin"); // Redirigir a la página de inicio de sesión
+    router.push("/uploadBill"); // Redirigir a la página de inicio de sesión
   };
 
   return (
