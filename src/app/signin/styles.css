@@ -1,0 +1,54 @@
+.signin-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.file-input-container {
+  margin: 20px 0;
+}
+
+.file-input {
+  display: inline-block;
+  margin-bottom: 10px; /* Espacio entre el input y el área de arrastre */
+}
+
+.drop-area {
+  border: 2px dashed #0070f3; /* Borde azul */
+  padding: 20px;
+  margin: 10px 0; /* Espacio adicional arriba y abajo */
+  background-color: #f0f8ff; /* Color de fondo claro para el área de arrastre */
+  width: 300px; /* Ancho del área de arrastre */
+  height: 150px; /* Alto del área de arrastre */
+  margin-left: auto; /* Centrar el área de arrastre */
+  margin-right: auto; /* Centrar el área de arrastre */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centrar el texto dentro del área */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #0070f3; /* Color de fondo azul */
+  color: white; /* Color del texto */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.button:hover {
+  background-color: #005bb5; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo específico para el botón "Enviar" */
+.submit-button {
+  display: block;
+  margin: 0 auto; /* Centrar el botón "Enviar" */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente si es necesario */
+}

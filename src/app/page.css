@@ -1,0 +1,25 @@
+/* styles.css */
+.container {
+  margin-top: 20px;
+}
+
+.label {
+  display: block;
+  margin: 15px 0 5px; /* Espacio entre la etiqueta y el campo */
+}
+
+.input {
+  display: block;
+  margin-bottom: 15px; /* Espacio entre los campos */
+  padding: 8px; /* Espaciado interno */
+  width: 100%; /* Ajustar al ancho del contenedor */
+  box-sizing: border-box; /* Incluir padding en el ancho total */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  margin-right: 10px;
+}
