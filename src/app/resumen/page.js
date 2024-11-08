@@ -1,4 +1,4 @@
-//Sin datos
+/*//Sin datos
 "use client"; // Obligatorio para componentes que manejan eventos del cliente
 
 import { useRouter } from "next/navigation"; // Importar el router para la navegación
@@ -39,6 +39,7 @@ export default function Resumen() {
     </div>
   );
 }
+*/
 
 //Con datos
 // "use client"; // Obligatorio para componentes que manejan eventos del cliente
@@ -102,3 +103,15 @@ export default function Resumen() {
 //     </div>
 //   );
 // }
+import Resumen from "./Resumen";
+
+export default function Page() {
+  // Pasamos un array vacío o datos de prueba
+  const facturas = []; // Simulamos un array vacío o puedes llenarlo con datos de prueba
+
+  return (
+    <main>
+      <Resumen facturas={facturas} />
+    </main>
+  );
+}
